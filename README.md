@@ -12,8 +12,7 @@ To create an application called Note Taker that allow the user to write note for
 - Deploy to Heroku
 
 
-
-![screenshot]('../../Develop/public/assets/img/screenshot-note-taker.png)
+![screenshot](./public/assets/img/screenshot-note-taker.png)
 
 
 ## Heroku Deploy Link
