@@ -1,17 +1,22 @@
 [
   {
-    "title": "test",
-    "text": "stet",
+    "title": "Soccer Practice",
+    "text": "Soccer practice at 9 am",
     "id": "0"
   },
   {
-    "title": "test1",
-    "text": "test 1",
+    "title": "After soccer practice",
+    "text": "Shopping for foods",
     "id": "1"
   },
   {
-    "title": "test2",
-    "text": "test 2",
+    "title": "Finishing homework ",
+    "text": "Finish homework due this week",
     "id": "2"
+  },
+  {
+    "title": "Study next week lessons",
+    "text": "Study for next week lessons",
+    "id": "3"
   }
 ]

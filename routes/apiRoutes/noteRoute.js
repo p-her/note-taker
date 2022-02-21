@@ -1,6 +1,5 @@
 const router = require('express').Router();
-const { count } = require('console');
-const {readFile} = require('fs');
+
 
 const notes = require('../../db/db.json');
 const createNewNote = require('../../lib/notes');
@@ -9,8 +8,7 @@ router.get('/notes', (req, res) => {
 
     res.json(notes);
 });
-// Develop/db/db.json
-// Develop/routes/apiRoutes/noteRoute.js
+
 router.post('/notes', (req, res) => {
       
    req.body.id = notes.length.toString();
@@ -20,10 +18,17 @@ router.post('/notes', (req, res) => {
 
 });
 
+
+// need to add api/notes/id
 router.delete('/notes/:id', (req, res) => {
+
+   
     const id = req.params.id;
 
-    
+    res.json({
+        message:'deleted',
+        id: req.params.id
+    })
 
 })
 
